@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.5
 
-**Commit Delta**: [Change from 0.0.4 release](https://github.com/plus3it/tardigrade/compare/0.0.4...0.0.5)
+**Commit Delta**: [Change from 0.0.4 release](https://github.com/MetroStar/tardigrade/compare/0.0.4...0.0.5)
 
 **Released**: 2020.03.11
 
@@ -20,7 +20,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.4
 
-**Commit Delta**: [Change from 0.0.3 release](https://github.com/plus3it/tardigrade/compare/0.0.3...0.0.4)
+**Commit Delta**: [Change from 0.0.3 release](https://github.com/MetroStar/tardigrade/compare/0.0.3...0.0.4)
 
 **Released**: 2020.01.08
 
@@ -33,7 +33,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.3
 
-**Commit Delta**: [Change from 0.0.2 release](https://github.com/plus3it/tardigrade/compare/0.0.2...0.0.3)
+**Commit Delta**: [Change from 0.0.2 release](https://github.com/MetroStar/tardigrade/compare/0.0.2...0.0.3)
 
 **Released**: 2020.01.03
 
@@ -43,7 +43,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.2
 
-**Commit Delta**: [Change from 0.0.1 release](https://github.com/plus3it/tardigrade/compare/0.0.1...0.0.2)
+**Commit Delta**: [Change from 0.0.1 release](https://github.com/MetroStar/tardigrade/compare/0.0.1...0.0.2)
 
 **Released**: 2020.01.02
 
@@ -55,7 +55,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.1
 
-**Commit Delta**: [Change from 0.0.0 release](https://github.com/plus3it/tardigrade/compare/0.0.0...0.0.1)
+**Commit Delta**: [Change from 0.0.0 release](https://github.com/MetroStar/tardigrade/compare/0.0.0...0.0.1)
 
 **Released**: 2019.10.28
 

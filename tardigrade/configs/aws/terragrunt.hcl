@@ -18,8 +18,8 @@ locals {
   role_name      = "OrganizationAccountAccessRole"
 
   tags = {
-    RepoCloneUrl     = "https://github.com/plus3it/${local.repo_name}.git"
-    RepoConsoleUrl   = "https://github.com/plus3it/${local.repo_name}"
+    RepoCloneUrl     = "https://github.com/MetroStar/${local.repo_name}.git"
+    RepoConsoleUrl   = "https://github.com/MetroStar/${local.repo_name}"
     RepoName         = local.repo_name
     TfstateBucket    = "${local.repo_name}-ci-tfstate"
     TfstateLockTable = "${local.repo_name}-ci-tfstate-lock"

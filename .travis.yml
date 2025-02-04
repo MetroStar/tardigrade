@@ -21,12 +21,12 @@ jobs:
       name: Project Syntax Verification
       script: make && make docker/run target=lint
     - stage: deploy
-      if: branch = master AND type = push AND repo = plus3it/tardigrade
+      if: branch = master AND type = push AND repo = MetroStar/tardigrade
       before_script:
         - |
           PRIOR_VERSION=$(git describe --abbrev=0 --tags)
           RELEASE_VERSION=$(grep current_version $TRAVIS_BUILD_DIR/.bumpversion.cfg | sed 's/^.*= //' )
-          RELEASE_BODY="* [tardigrade v$RELEASE_VERSION CHANGELOG](https://github.com/plus3it/tardigrade/blob/$RELEASE_VERSION/CHANGELOG.md)"
+          RELEASE_BODY="* [tardigrade v$RELEASE_VERSION CHANGELOG](https://github.com/MetroStar/tardigrade/blob/$RELEASE_VERSION/CHANGELOG.md)"
           export PRIOR_VERSION RELEASE_VERSION RELEASE_BODY
       script: skip
       before_deploy:
@@ -43,5 +43,5 @@ jobs:
         draft: false
         on:
           branch: master
-          repo: plus3it/tardigrade
+          repo: MetroStar/tardigrade
           condition: '"$PRIOR_VERSION" != "$RELEASE_VERSION"'

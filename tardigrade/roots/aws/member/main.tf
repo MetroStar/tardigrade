@@ -1,5 +1,5 @@
 module "cloudtrail" {
-  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-cloudtrail.git?ref=6.3.0"
+  source = "git::https://github.com/MetroStar/terraform-aws-tardigrade-cloudtrail.git?ref=6.3.0"
 
   cloudtrail_name   = "${local.namespace}-cloudtrail"
   cloudtrail_bucket = var.cloudtrail_bucket
@@ -7,25 +7,25 @@ module "cloudtrail" {
 }
 
 module "config" {
-  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-config.git?ref=4.2.0"
+  source = "git::https://github.com/MetroStar/terraform-aws-tardigrade-config.git?ref=4.2.0"
 
   config_bucket = var.config_bucket
   tags          = local.tags
 }
 
 module "default_ebs_encryption" {
-  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-ebs-encryption.git?ref=2.0.0"
+  source = "git::https://github.com/MetroStar/terraform-aws-tardigrade-ebs-encryption.git?ref=2.0.0"
 }
 
 module "iam_account" {
-  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-iam-account.git?ref=3.0.0"
+  source = "git::https://github.com/MetroStar/terraform-aws-tardigrade-iam-account.git?ref=3.0.0"
 
   account_alias = local.namespace
   tags          = local.tags
 }
 
 module "guardduty" {
-  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-guardduty.git?ref=3.1.1"
+  source = "git::https://github.com/MetroStar/terraform-aws-tardigrade-guardduty.git?ref=3.1.1"
 
   providers = {
     aws        = aws
@@ -37,7 +37,7 @@ module "guardduty" {
 }
 
 module "securityhub" {
-  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-security-hub.git//modules/cross-account-member?ref=5.0.0"
+  source = "git::https://github.com/MetroStar/terraform-aws-tardigrade-security-hub.git//modules/cross-account-member?ref=5.0.0"
 
   providers = {
     aws               = aws
